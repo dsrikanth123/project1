@@ -1,0 +1,281 @@
+.nav-bar{
+   background-image: url(./images/slide-02.jpg);
+   width: 100%;
+   height: 73vh;
+}
+.banners{
+   height: 70vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.arrow{
+   position: absolute;
+   top:70%;
+   left: 45%;
+   background-color:green;
+   color: white;
+   border: 2px solid green;
+   padding: 10px;
+   border-radius:50%;
+}
+.about{
+   width:40%;
+   padding-left: 20px;
+   padding-top: 10%;
+}
+.four{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   background-color: white;
+}
+.items{
+   display: flex;
+   flex-wrap: wrap;
+   width:50%;
+}
+.item{
+   display: flex;
+   align-items: center;
+   width: 50%;
+}
+.one{
+   border: 2px solid green;
+   background-color: green;
+   color: white;
+   padding: 5px;
+}
+.five{
+   width: 50%;
+   padding-top: 180px;
+}
+.plans{
+   display: flex;
+   width: 100%;
+   background-color: whitesmoke;
+}
+.features{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: start;
+   align-items: center;
+   column-gap: 20px;
+   padding-left:20px;
+   padding-top: 40px;
+   padding-bottom: 30px;
+}
+.features>p,span{
+   padding-left: 40px;
+}
+.sub{
+   background-image: url(./images/slide-01.jpg);
+   width: 100%;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.projects{
+   width: 100%;
+   height:100vh ;
+   padding-top: 60px;
+   display: flex;
+   column-gap: 30px;
+   padding-bottom: 60px;
+}
+.project{
+    width: 40%;
+    padding-left: 30px;
+}
+.design{
+   width: 55%;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+.design>img{
+   width: 30%;
+}
+.members{
+   background-image: url(./images/slide-03.jpg);
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 20px;
+   padding-bottom: 50px;
+}
+.member{
+   text-align: center;
+   display: flex;
+   gap: 20px;
+}
+.contacts{
+   width: 100%;
+   padding-top: 60px;
+   padding-bottom: 40px;
+   background-image: url(./images/dotted-map-bg.png);
+   display: flex;
+   justify-content: space-around;
+}
+.contact{
+   width: 40%;
+   padding-left: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.contact-01{
+   display: flex;
+   flex-direction: column;
+}
+.contact-info-02{
+   display: flex;
+   align-items: center;
+}
+.forms{
+   width: 50%;
+   padding-top:60px;
+   padding-left:60px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+.footers{
+   background-image: url(./images/banner-bg.jpg);
+   color: white;
+   width: 100%;
+   height: 100px;
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+}
+.footer{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+@media screen and (max-width:426px){
+   .items{
+      display: flex;
+      flex-direction: column;
+   }
+   .plans{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+   }
+   .projects{
+      width: 100%;
+      height: 200vh;
+   }
+   .design img{
+      width: 60%;
+      height: 25vh;
+   }
+   .member{
+      display: flex;
+      flex-direction: column;
+   }
+   .contacts{
+      display: flex;
+      flex-direction: column;
+      padding-left: 5%;
+   }
+   .contact{
+      padding-left: 0px;
+   }
+   .footers{
+      display: flex;
+      flex-direction: column;
+   }
+}
+@media screen and (min-width:427px) and (max-width:768px){
+   .design{
+      flex-wrap: wrap;
+      gap: 2%;
+   }
+   .design img{
+      width: 45%;
+   }
+   .member{
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+   .items{
+      column-gap: 1%;
+   }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+   .container-fluid{
+      font-size: 20px;
+   }
+   .projects{
+      height: 80vh;
+   }
+   .design{
+      padding-top: 5%;
+   }
+   .design img{
+      width: 30%;
+      height: 40%;
+   }
+   .navs img{
+      width: 35px;
+      height: 25px;
+   }
+   select{
+     font-size: 20px;
+   }
+   .design img{
+      width: 30%;
+      height: 40%;
+   }
+
+   p{
+      font-size: 20px;
+   }
+   span{
+      font-size: 15px;
+   }
+   h1{
+      font-size: 32px;
+   }
+   h6{
+      font-size: 18px;
+   }
+   .items{
+      column-gap: 1%;
+   }
+   
+}
+@media screen and (min-width:1025px) and (max-width:1440px){
+   
+   .container-fluid{
+      font-size: 30px;
+   }
+   .design img{
+      width: 31%;
+      height: 40%;
+   }
+   p{
+      font-size: 25px;
+   }
+   span{
+      font-size: 20px;
+   }
+   h1{
+      font-size: 48px;
+   }
+   h6{
+      font-size: 20px;
+   }
+}
+
+   
+
